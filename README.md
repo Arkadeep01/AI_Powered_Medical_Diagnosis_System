@@ -9,9 +9,7 @@
 
 Here’s a preview of the system interface:
 
-📌 Save your image as:
-
-/assets/ui-preview.png
+<p align="center"> <img src="assets/ui-preview.png" width="90%" /> </p>
 📌 Project Overview
 
 A full-stack AI healthcare platform that predicts multiple diseases using machine learning models with a modern interactive dashboard.
@@ -39,21 +37,15 @@ API endpoints:
 Handles preprocessing + inference
 Returns JSON responses
 🎨 Frontend (React Dashboard)
-
-From your UI:
-
-🔹 Interactive disease selection panel
-🔹 Real-time form inputs
-🔹 Normal range guidance display
-🔹 Clean dark-themed medical UI
-🔹 Dynamic prediction results
+Interactive disease selection
+Real-time form inputs
+Normal range guidance display
+Clean dark-themed UI
+Dynamic prediction results
 📦 Deployment (Docker)
-Fully containerized system
-Includes:
-Backend
-Frontend (dist build)
-ML models
-Deployable on cloud platforms
+Full containerized system
+Includes backend + frontend + ML models
+Portable across environments
 🛠️ Local Setup
 Clone Repo
 git clone https://github.com/your-username/your-repo.git
@@ -75,7 +67,7 @@ docker run -p 5000:5000 medical-app
 
 Deployed using Render with Docker.
 
-✅ Required Config
+✅ Required
 app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
 ❌ Avoid
 ssl_context='adhoc'
@@ -88,24 +80,18 @@ Deployment	Docker + Render
 ⚡ Features
 🧠 Multi-disease prediction
 ⚡ Fast ML inference
-📊 Real-time input analysis
-🎯 Clean dashboard UI
+📊 Real-time analysis
+🎨 Clean dashboard UI
 🌐 Cloud deployment ready
-🔒 Production Notes
-Uses dynamic $PORT for deployment
-Optimized Docker build
-.dockerignore reduces image size
-SSL handled by hosting platform
 🚀 Future Enhancements
 📈 Explainable AI
 🧑‍⚕️ Doctor dashboard
 📱 Mobile app
-📊 Visualization graphs
-🤖 Conversational chatbot integration
+📊 Visual analytics
 ⭐ Support
 
 If you like this project:
 
 ⭐ Star the repo
 🔁 Share it
-💼 Add to portfolio
+💼 Use in portfolio
