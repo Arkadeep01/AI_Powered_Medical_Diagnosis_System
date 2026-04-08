@@ -10,8 +10,8 @@
 Here’s a preview of the system interface:
 
 <p align="center"> <img src="assets/ui-preview.png" width="90%" /> </p>
-📌 Project Overview
 
+---📌 Project Overview
 A full-stack AI healthcare platform that predicts multiple diseases using machine learning models with a modern interactive dashboard.
 
 🧠 System Architecture
