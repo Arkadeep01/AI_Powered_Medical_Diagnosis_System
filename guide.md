@@ -21,7 +21,7 @@ An interactive web application for medical diagnosis using machine learning mode
 - Preprocessed Hypothyroid
 - Preprocessed Lungs Disease
 
-## Local Development
+##  Local Development
 
 ### Prerequisites
 
@@ -64,7 +64,7 @@ An interactive web application for medical diagnosis using machine learning mode
 
 ## Deployment
 
-### Using Docker (Recommended)
+### 🐳 Using Docker (Recommended)
 
 1. Build the frontend:
    ```bash
@@ -83,7 +83,7 @@ An interactive web application for medical diagnosis using machine learning mode
 
 4. Access the application at http://localhost:5000
 
-### Manual Deployment
+### ☁️ Manual Deployment
 
 1. Build the application:
    ```bash
@@ -97,7 +97,7 @@ An interactive web application for medical diagnosis using machine learning mode
 
 3. The app will be available at http://localhost:5000
 
-### Cloud Deployment
+### 🌨️ Cloud Deployment
 
 The application can be deployed to any cloud platform that supports Docker containers or Python applications:
 
@@ -118,7 +118,7 @@ For production, set the `PORT` environment variable to the port assigned by the 
 
 All trained models are stored in the `SAV_File/` directory as `.sav` files using joblib.
 
-## Technologies Used
+## 📊 Technologies Used
 
 - **Backend**: Flask, scikit-learn, joblib, numpy
 - **Frontend**: React, Vite, Tailwind CSS
