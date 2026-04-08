@@ -17,6 +17,7 @@ A full-stack AI healthcare platform that predicts multiple diseases using machin
 🧠 System Architecture
 User → React Frontend → Flask API → ML Models → Prediction → UI Response
 ⚙️ Core Components
+
 🧠 Machine Learning Layer
 Trained on medical datasets
 Supports:
@@ -29,6 +30,7 @@ Migraine
 Fetal Health
 Export formats:
 .sav, .pkl, .joblib
+
 ⚙️ Backend (Flask)
 Loads ML models at startup
 API endpoints:
@@ -36,16 +38,19 @@ API endpoints:
 /analyze
 Handles preprocessing + inference
 Returns JSON responses
+
 🎨 Frontend (React Dashboard)
 Interactive disease selection
 Real-time form inputs
 Normal range guidance display
 Clean dark-themed UI
 Dynamic prediction results
+
 📦 Deployment (Docker)
 Full containerized system
 Includes backend + frontend + ML models
 Portable across environments
+
 🛠️ Local Setup
 Clone Repo
 git clone https://github.com/your-username/your-repo.git
